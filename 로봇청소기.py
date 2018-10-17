@@ -8,6 +8,7 @@ def turn_robot(d):
     else:
         return 2
 
+
 def back_robot(d):
     if d == 0:
         return 2
@@ -17,6 +18,7 @@ def back_robot(d):
         return 0
     else:
         return 1
+
 
 dx = [-1, 0, 1, 0]
 dy = [0, 1, 0, -1]
@@ -61,5 +63,3 @@ while True:
 #     print()
 
 print(answer-1)
-
-
